@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Background for the page */
+.bg-custom-page-orange {
+    background-color: #a46505;
+}
+
+/* Button styling */
+.btn-register {
+    background-color: #a46505;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.btn-register:hover {
+    background-color: #924f04; /* Darker shade for hover */
+}
+
